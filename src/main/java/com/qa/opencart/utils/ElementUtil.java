@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
+//import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
@@ -20,9 +21,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+//import jdk.internal.org.jline.utils.Log;
 import com.qa.opencart.factory.DriverFactory;
 
-import jdk.internal.org.jline.utils.Log;
 
 public class ElementUtil {
 
@@ -89,7 +90,7 @@ public class ElementUtil {
 	}
 
 	public void doSendKeys(By locator, String value) {
-		Log.info("locator is : "+locator +"value "+value);
+	//	log.info("locator is : "+ locator +"value "+value);
 		WebElement ele = getElement(locator);
 		ele.clear();
 		ele.sendKeys(value);
