@@ -16,18 +16,6 @@
 		</classes>
 	</test>
 	
-	<test name="Open Cart Login Page Negative Test">
-		<classes>
-			<class name="com.qa.opencart.test.LoginPageNegativeTest" />
-		</classes>
-	</test>
-
-	<test name="Open Cart Accounts Page Test">
-		<classes>
-			<class name="com.qa.opencart.test.AccountsPageTest" />
-		</classes>
-	</test>
-	
 	<!-- <test name="Open Cart Product Info Page Test">
 		<classes>
 			<class name="com.qa.opencart.test.ProductInfoPageTest" />
